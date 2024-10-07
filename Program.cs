@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.Builder;
 using StudentApi.Hateoas;
 using StudentApi.Middleware;
 using StudentApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
